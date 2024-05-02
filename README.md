@@ -1,4 +1,4 @@
-# Building a ChatGPT Client with Wing and React
+# Building a ChatGPT Client with Wing and NextJs
 
 This repository contains the source code for a web-based ChatGPT client developed using Wing and NextJs. This project demonstrates how to integrate OpenAI's language model (ChatGPT) with a modern NextJs frontend, utilizing Wing as the backend framework for efficient server-client communication.
 
