@@ -39,7 +39,7 @@ wing it
 ### Frontend Setup
 
 1. Navigate to the Frontend Directory:
-cd frontend
+cd front_end
 
 Start the NextJs app:
 
