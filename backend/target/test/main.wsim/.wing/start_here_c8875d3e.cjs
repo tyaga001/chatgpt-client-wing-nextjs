@@ -4,7 +4,7 @@ exports.handler = async function(event) {
   $handler = $handler ?? (
           (await (async () => {
             const $Closure1Client = 
-          require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.$Closure1-7.cjs")({
+          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.$Closure1-7.cjs")({
             $answerSource: (function() {
   let handle = process.env.TOPIC_HANDLE_cebbdb1d;
   if (!handle) {
@@ -23,24 +23,24 @@ exports.handler = async function(event) {
             $myAssistant: 
           (await (async () => {
             const RespondToQuestionsClient = 
-          require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.RespondToQuestions-7.cjs")({
+          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.RespondToQuestions-7.cjs")({
           })
         ;
             const client = new RespondToQuestionsClient({
               $this_gpt: 
           (await (async () => {
             const AssistantClient = 
-          require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.Assistant-7.cjs")({
+          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.Assistant-7.cjs")({
           })
         ;
             const client = new AssistantClient({
               $this_openai: 
       (await (async () => {
         const OpenAIClient = 
-      require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.OpenAI-1.cjs")({
+      require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.OpenAI-1.cjs")({
         $Sim: 
-      require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.Sim-1.cjs")({
-        $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+      require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.Sim-1.cjs")({
+        $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
       })
     ,
       })

@@ -2,83 +2,83 @@
   "types": {
     "@winglang/sdk.cloud.Api": {
       "className": "Api",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\api.inflight.js"
     },
     "@winglang/sdk.cloud.Bucket": {
       "className": "Bucket",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\bucket.inflight.js"
     },
     "@winglang/sdk.cloud.Counter": {
       "className": "Counter",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\counter.inflight.js"
     },
     "@winglang/sdk.cloud.Domain": {
       "className": "Domain",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\domain.inflight.js"
     },
     "@winglang/sdk.cloud.Endpoint": {
       "className": "Endpoint",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/endpoint.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\endpoint.inflight.js"
     },
     "@winglang/sdk.sim.EventMapping": {
       "className": "EventMapping",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\event-mapping.inflight.js"
     },
     "@winglang/sdk.cloud.Function": {
       "className": "Function",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\function.inflight.js"
     },
     "@winglang/sdk.cloud.OnDeploy": {
       "className": "OnDeploy",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\on-deploy.inflight.js"
     },
     "@winglang/sdk.sim.Policy": {
       "className": "Policy",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/policy.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\policy.inflight.js"
     },
     "@winglang/sdk.cloud.Queue": {
       "className": "Queue",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\queue.inflight.js"
     },
     "@winglang/sdk.ex.Redis": {
       "className": "Redis",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\redis.inflight.js"
     },
     "@winglang/sdk.cloud.Schedule": {
       "className": "Schedule",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\schedule.inflight.js"
     },
     "@winglang/sdk.cloud.Secret": {
       "className": "Secret",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\secret.inflight.js"
     },
     "@winglang/sdk.cloud.Service": {
       "className": "Service",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\service.inflight.js"
     },
     "@winglang/sdk.sim.State": {
       "className": "State",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\state.inflight.js"
     },
     "@winglang/sdk.sim.Container": {
       "className": "Container",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/container.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\container.inflight.js"
     },
     "@winglang/sdk.ex.Table": {
       "className": "Table",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\table.inflight.js"
     },
     "@winglang/sdk.std.TestRunner": {
       "className": "TestRunner",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\test-runner.inflight.js"
     },
     "@winglang/sdk.cloud.Topic": {
       "className": "Topic",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\topic.inflight.js"
     },
     "@winglang/sdk.cloud.Website": {
       "className": "Website",
-      "sourcePath": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
+      "sourcePath": "C:\\Users\\loyal\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\website.inflight.js"
     }
   },
   "resources": {
@@ -161,7 +161,7 @@
     "root/Default/Api/OnRequestHandler0": {
       "type": "@winglang/sdk.cloud.Function",
       "props": {
-        "sourceCodeFile": ".wing/onrequesthandler0_c8a03e6b.cjs",
+        "sourceCodeFile": ".wing\\onrequesthandler0_c8a03e6b.cjs",
         "sourceCodeLanguage": "javascript",
         "environmentVariables": {
           "WING_TARGET": "sim",
@@ -321,7 +321,7 @@
     "root/Default/Api/OnRequestHandler1": {
       "type": "@winglang/sdk.cloud.Function",
       "props": {
-        "sourceCodeFile": ".wing/onrequesthandler1_c868593e.cjs",
+        "sourceCodeFile": ".wing\\onrequesthandler1_c868593e.cjs",
         "sourceCodeLanguage": "javascript",
         "environmentVariables": {
           "WING_TARGET": "sim",
@@ -390,7 +390,7 @@
     "root/Default/START HERE": {
       "type": "@winglang/sdk.cloud.Function",
       "props": {
-        "sourceCodeFile": ".wing/start_here_c89f8a36.cjs",
+        "sourceCodeFile": ".wing\\start_here_c89f8a36.cjs",
         "sourceCodeLanguage": "javascript",
         "environmentVariables": {
           "WING_TARGET": "sim",
@@ -440,12 +440,12 @@
       "props": {
         "environmentVariables": {
           "WING_TARGET": "sim",
-          "HOME": "/Users/ankurtyagi",
-          "PATH": "/Users/ankurtyagi/.nvm/versions/node/v18.20.1/bin:/usr/local/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ankurtyagi/.npm-global/lib/node_modules/.bin",
+          "HOME": "localhost:4000",
+          "PATH": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\loyal\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\loyal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\loyal\\AppData\\Roaming\\npm",
           "STATE_HANDLE_92652da3": "${wsim#root/Default/App/AppSim/State#attrs.handle}",
           "WING_TOKEN_WSIM_ROOT_DEFAULT_API_ATTRS_URL": "${wsim#root/Default/Api#attrs.url}"
         },
-        "sourceCodeFile": ".wing/service_c85e9829.cjs",
+        "sourceCodeFile": ".wing\\service_c85e9829.cjs",
         "autoStart": true
       },
       "policy": [
@@ -463,7 +463,7 @@
     "root/Default/App/Field/Handler": {
       "type": "@winglang/sdk.cloud.Function",
       "props": {
-        "sourceCodeFile": ".wing/handler_c8d7d26f.cjs",
+        "sourceCodeFile": ".wing\\handler_c8d7d26f.cjs",
         "sourceCodeLanguage": "javascript",
         "environmentVariables": {
           "WING_TARGET": "sim",
@@ -486,5 +486,5 @@
       "addr": "c819ec9b3ddc9cb5bd572be771a86357bc117cb6d8"
     }
   },
-  "sdkVersion": "0.73.12"
+  "sdkVersion": "0.72.6"
 }

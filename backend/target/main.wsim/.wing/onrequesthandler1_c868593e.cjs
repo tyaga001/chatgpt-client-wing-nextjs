@@ -1,10 +1,10 @@
 "use strict";
 var $handler = undefined;
 exports.handler = async function(event) {
-  $handler = $handler ?? (new (require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.onrequest.inflight.js")).ApiOnRequestHandlerClient({ handler: 
+  $handler = $handler ?? (new (require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.onrequest.inflight.js")).ApiOnRequestHandlerClient({ handler: 
           (await (async () => {
             const $Closure3Client = 
-          require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/main.wsim/.wing/inflight.$Closure3-7.cjs")({
+          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/main.wsim/.wing/inflight.$Closure3-7.cjs")({
             $db: (function() {
   let handle = process.env.TABLE_HANDLE_3ff47b20;
   if (!handle) {
@@ -20,7 +20,7 @@ exports.handler = async function(event) {
   }
   return require("@winglang/sdk/lib/simulator/client").makeSimulatorClient(simulatorUrl, handle, caller);
 })(),
-            $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+            $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
           })
         ;
             const client = new $Closure3Client({

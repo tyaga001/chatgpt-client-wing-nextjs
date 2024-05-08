@@ -34,9 +34,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js
 var require_helpers = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js"(exports, module) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createExternRequire = exports.assign = exports.lookup = exports.unwrap = exports.normalPath = exports.nodeof = exports.range = exports.assert = exports.neq = exports.eq = void 0;
@@ -221,9 +221,9 @@ var require_inflight_Closure1_4 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/old.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/old.js
 var require_old = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/old.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/old.js"(exports2) {
     var pathModule = require("path");
     var isWindows = process.platform === "win32";
     var fs = require("fs");
@@ -443,9 +443,9 @@ var require_old = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/index.js
 var require_fs = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fs.realpath/index.js"(exports2, module2) {
     module2.exports = realpath;
     realpath.realpath = realpath;
     realpath.sync = realpathSync;
@@ -507,17 +507,17 @@ var require_fs = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/lib/path.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/lib/path.js
 var require_path = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/lib/path.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/lib/path.js"(exports2, module2) {
     var isWindows = typeof process === "object" && process && process.platform === "win32";
     module2.exports = isWindows ? { sep: "\\" } : { sep: "/" };
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/balanced-match/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/balanced-match/index.js
 var require_balanced_match = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/balanced-match/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/balanced-match/index.js"(exports2, module2) {
     "use strict";
     module2.exports = balanced;
     function balanced(a, b, str) {
@@ -578,9 +578,9 @@ var require_balanced_match = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/brace-expansion/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/brace-expansion/index.js
 var require_brace_expansion = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/brace-expansion/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/brace-expansion/index.js"(exports2, module2) {
     var balanced = require_balanced_match();
     module2.exports = expandTop;
     var escSlash = "\0SLASH" + Math.random() + "\0";
@@ -739,9 +739,9 @@ var require_brace_expansion = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/minimatch.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/minimatch.js
 var require_minimatch = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/minimatch.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/minimatch/minimatch.js"(exports2, module2) {
     var minimatch = module2.exports = (p, pattern, options = {}) => {
       assertValidPattern(pattern);
       if (!options.nocomment && pattern.charAt(0) === "#") {
@@ -1316,9 +1316,9 @@ var require_minimatch = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits_browser.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits_browser.js
 var require_inherits_browser = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits_browser.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits_browser.js"(exports2, module2) {
     if (typeof Object.create === "function") {
       module2.exports = /* @__PURE__ */ __name(function inherits(ctor, superCtor) {
         if (superCtor) {
@@ -1348,9 +1348,9 @@ var require_inherits_browser = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits.js
 var require_inherits = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inherits/inherits.js"(exports2, module2) {
     try {
       util = require("util");
       if (typeof util.inherits !== "function")
@@ -1363,9 +1363,9 @@ var require_inherits = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/common.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/common.js
 var require_common = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/common.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/common.js"(exports2) {
     exports2.setopts = setopts;
     exports2.ownProp = ownProp;
     exports2.makeAbs = makeAbs;
@@ -1571,9 +1571,9 @@ var require_common = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/sync.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/sync.js
 var require_sync = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/sync.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/sync.js"(exports2, module2) {
     module2.exports = globSync;
     globSync.GlobSync = GlobSync;
     var rp = require_fs();
@@ -1925,9 +1925,9 @@ var require_sync = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/wrappy/wrappy.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/wrappy/wrappy.js
 var require_wrappy = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/wrappy/wrappy.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/wrappy/wrappy.js"(exports2, module2) {
     module2.exports = wrappy;
     function wrappy(fn, cb) {
       if (fn && cb)
@@ -1958,9 +1958,9 @@ var require_wrappy = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/once/once.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/once/once.js
 var require_once = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/once/once.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/once/once.js"(exports2, module2) {
     var wrappy = require_wrappy();
     module2.exports = wrappy(once);
     module2.exports.strict = wrappy(onceStrict);
@@ -2005,9 +2005,9 @@ var require_once = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inflight/inflight.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inflight/inflight.js
 var require_inflight = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inflight/inflight.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/inflight/inflight.js"(exports2, module2) {
     var wrappy = require_wrappy();
     var reqs = /* @__PURE__ */ Object.create(null);
     var once = require_once();
@@ -2055,9 +2055,9 @@ var require_inflight = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/glob.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/glob.js
 var require_glob = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/glob.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/glob/glob.js"(exports2, module2) {
     module2.exports = glob;
     var rp = require_fs();
     var minimatch = require_minimatch();
@@ -2618,9 +2618,9 @@ var require_glob = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/identity.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/identity.js
 var require_identity = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/identity.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/identity.js"(exports2) {
     "use strict";
     var ALIAS = Symbol.for("yaml.alias");
     var DOC = Symbol.for("yaml.document");
@@ -2677,9 +2677,9 @@ var require_identity = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/visit.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/visit.js
 var require_visit = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/visit.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/visit.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var BREAK = Symbol("break visit");
@@ -2842,9 +2842,9 @@ var require_visit = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/directives.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/directives.js
 var require_directives = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/directives.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/directives.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var visit = require_visit();
@@ -3010,9 +3010,9 @@ var require_directives = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/anchors.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/anchors.js
 var require_anchors = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/anchors.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/anchors.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var visit = require_visit();
@@ -3085,9 +3085,9 @@ var require_anchors = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/applyReviver.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/applyReviver.js
 var require_applyReviver = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/applyReviver.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/applyReviver.js"(exports2) {
     "use strict";
     function applyReviver(reviver, obj, key, val) {
       if (val && typeof val === "object") {
@@ -3136,9 +3136,9 @@ var require_applyReviver = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/toJS.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/toJS.js
 var require_toJS = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/toJS.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/toJS.js"(exports2) {
     "use strict";
     var identity = require_identity();
     function toJS(value, arg, ctx) {
@@ -3167,9 +3167,9 @@ var require_toJS = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Node.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Node.js
 var require_Node = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Node.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Node.js"(exports2) {
     "use strict";
     var applyReviver = require_applyReviver();
     var identity = require_identity();
@@ -3211,9 +3211,9 @@ var require_Node = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Alias.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Alias.js
 var require_Alias = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Alias.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Alias.js"(exports2) {
     "use strict";
     var anchors = require_anchors();
     var visit = require_visit();
@@ -3317,9 +3317,9 @@ var require_Alias = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Scalar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Scalar.js
 var require_Scalar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Scalar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Scalar.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Node2 = require_Node();
@@ -3350,9 +3350,9 @@ var require_Scalar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/createNode.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/createNode.js
 var require_createNode = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/createNode.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/createNode.js"(exports2) {
     "use strict";
     var Alias = require_Alias();
     var identity = require_identity();
@@ -3428,9 +3428,9 @@ var require_createNode = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Collection.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Collection.js
 var require_Collection = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Collection.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Collection.js"(exports2) {
     "use strict";
     var createNode = require_createNode();
     var identity = require_identity();
@@ -3576,9 +3576,9 @@ var require_Collection = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyComment.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyComment.js
 var require_stringifyComment = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyComment.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyComment.js"(exports2) {
     "use strict";
     var stringifyComment = /* @__PURE__ */ __name((str) => str.replace(/^(?!$)(?: $)?/gm, "#"), "stringifyComment");
     function indentComment(comment, indent) {
@@ -3594,9 +3594,9 @@ var require_stringifyComment = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/foldFlowLines.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/foldFlowLines.js
 var require_foldFlowLines = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/foldFlowLines.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/foldFlowLines.js"(exports2) {
     "use strict";
     var FOLD_FLOW = "flow";
     var FOLD_BLOCK = "block";
@@ -3722,9 +3722,9 @@ ${indent}${text.slice(fold + 1, end2)}`;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyString.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyString.js
 var require_stringifyString = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyString.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyString.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var foldFlowLines = require_foldFlowLines();
@@ -4004,9 +4004,9 @@ ${indent}`);
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringify.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringify.js
 var require_stringify = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringify.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringify.js"(exports2) {
     "use strict";
     var anchors = require_anchors();
     var identity = require_identity();
@@ -4127,9 +4127,9 @@ ${ctx.indent}${str}`;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyPair.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyPair.js
 var require_stringifyPair = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyPair.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyPair.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Scalar = require_Scalar();
@@ -4261,9 +4261,9 @@ ${ctx.indent}`;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/log.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/log.js
 var require_log = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/log.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/log.js"(exports2) {
     "use strict";
     function debug(logLevel, ...messages) {
       if (logLevel === "debug")
@@ -4284,9 +4284,9 @@ var require_log = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/addPairToJSMap.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/addPairToJSMap.js
 var require_addPairToJSMap = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/addPairToJSMap.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/addPairToJSMap.js"(exports2) {
     "use strict";
     var log = require_log();
     var stringify2 = require_stringify();
@@ -4381,9 +4381,9 @@ var require_addPairToJSMap = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Pair.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Pair.js
 var require_Pair = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Pair.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/Pair.js"(exports2) {
     "use strict";
     var createNode = require_createNode();
     var stringifyPair = require_stringifyPair();
@@ -4425,9 +4425,9 @@ var require_Pair = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyCollection.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyCollection.js
 var require_stringifyCollection = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyCollection.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyCollection.js"(exports2) {
     "use strict";
     var Collection = require_Collection();
     var identity = require_identity();
@@ -4581,9 +4581,9 @@ ${indent}${end}`;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLMap.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLMap.js
 var require_YAMLMap = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLMap.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLMap.js"(exports2) {
     "use strict";
     var stringifyCollection = require_stringifyCollection();
     var addPairToJSMap = require_addPairToJSMap();
@@ -4729,9 +4729,9 @@ var require_YAMLMap = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/map.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/map.js
 var require_map = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/map.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/map.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var YAMLMap = require_YAMLMap();
@@ -4751,9 +4751,9 @@ var require_map = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLSeq.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLSeq.js
 var require_YAMLSeq = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLSeq.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/nodes/YAMLSeq.js"(exports2) {
     "use strict";
     var createNode = require_createNode();
     var stringifyCollection = require_stringifyCollection();
@@ -4871,9 +4871,9 @@ var require_YAMLSeq = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/seq.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/seq.js
 var require_seq = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/seq.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/seq.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var YAMLSeq = require_YAMLSeq();
@@ -4893,9 +4893,9 @@ var require_seq = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/string.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/string.js
 var require_string = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/string.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/string.js"(exports2) {
     "use strict";
     var stringifyString = require_stringifyString();
     var string = {
@@ -4912,9 +4912,9 @@ var require_string = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/null.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/null.js
 var require_null = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/null.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/common/null.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var nullTag = {
@@ -4930,9 +4930,9 @@ var require_null = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/bool.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/bool.js
 var require_bool = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/bool.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/bool.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var boolTag = {
@@ -4954,9 +4954,9 @@ var require_bool = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyNumber.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyNumber.js
 var require_stringifyNumber = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyNumber.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyNumber.js"(exports2) {
     "use strict";
     function stringifyNumber({ format, minFractionDigits, tag, value }) {
       if (typeof value === "bigint")
@@ -4982,9 +4982,9 @@ var require_stringifyNumber = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/float.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/float.js
 var require_float = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/float.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/float.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var stringifyNumber = require_stringifyNumber();
@@ -5028,9 +5028,9 @@ var require_float = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/int.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/int.js
 var require_int = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/int.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/int.js"(exports2) {
     "use strict";
     var stringifyNumber = require_stringifyNumber();
     var intIdentify = /* @__PURE__ */ __name((value) => typeof value === "bigint" || Number.isInteger(value), "intIdentify");
@@ -5074,9 +5074,9 @@ var require_int = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/schema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/schema.js
 var require_schema = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/schema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/core/schema.js"(exports2) {
     "use strict";
     var map = require_map();
     var _null = require_null();
@@ -5102,9 +5102,9 @@ var require_schema = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/json/schema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/json/schema.js
 var require_schema2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/json/schema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/json/schema.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var map = require_map();
@@ -5170,9 +5170,9 @@ var require_schema2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/binary.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/binary.js
 var require_binary = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/binary.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/binary.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var stringifyString = require_stringifyString();
@@ -5233,9 +5233,9 @@ var require_binary = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/pairs.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/pairs.js
 var require_pairs = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/pairs.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/pairs.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Pair = require_Pair();
@@ -5313,9 +5313,9 @@ ${cn.comment}` : item.comment;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/omap.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/omap.js
 var require_omap = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/omap.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/omap.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var toJS = require_toJS();
@@ -5394,9 +5394,9 @@ var require_omap = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/bool.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/bool.js
 var require_bool2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/bool.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/bool.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     function boolStringify({ value, source }, ctx) {
@@ -5427,9 +5427,9 @@ var require_bool2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/float.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/float.js
 var require_float2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/float.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/float.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var stringifyNumber = require_stringifyNumber();
@@ -5476,9 +5476,9 @@ var require_float2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/int.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/int.js
 var require_int2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/int.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/int.js"(exports2) {
     "use strict";
     var stringifyNumber = require_stringifyNumber();
     var intIdentify = /* @__PURE__ */ __name((value) => typeof value === "bigint" || Number.isInteger(value), "intIdentify");
@@ -5557,9 +5557,9 @@ var require_int2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/set.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/set.js
 var require_set = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/set.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/set.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Pair = require_Pair();
@@ -5649,9 +5649,9 @@ var require_set = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js
 var require_timestamp = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js"(exports2) {
     "use strict";
     var stringifyNumber = require_stringifyNumber();
     function parseSexagesimal(str, asBigInt) {
@@ -5739,9 +5739,9 @@ var require_timestamp = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/schema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/schema.js
 var require_schema3 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/schema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/yaml-1.1/schema.js"(exports2) {
     "use strict";
     var map = require_map();
     var _null = require_null();
@@ -5781,9 +5781,9 @@ var require_schema3 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/tags.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/tags.js
 var require_tags = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/tags.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/tags.js"(exports2) {
     "use strict";
     var map = require_map();
     var _null = require_null();
@@ -5865,9 +5865,9 @@ var require_tags = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/Schema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/Schema.js
 var require_Schema = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/Schema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/schema/Schema.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var map = require_map();
@@ -5901,9 +5901,9 @@ var require_Schema = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyDocument.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyDocument.js
 var require_stringifyDocument = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyDocument.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/stringify/stringifyDocument.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var stringify2 = require_stringify();
@@ -5982,9 +5982,9 @@ var require_stringifyDocument = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/Document.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/Document.js
 var require_Document = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/Document.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/doc/Document.js"(exports2) {
     "use strict";
     var Alias = require_Alias();
     var Collection = require_Collection();
@@ -6294,9 +6294,9 @@ var require_Document = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/errors.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/errors.js
 var require_errors = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/errors.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/errors.js"(exports2) {
     "use strict";
     var YAMLError = class extends Error {
       static {
@@ -6368,9 +6368,9 @@ ${pointer}
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-props.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-props.js
 var require_resolve_props = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-props.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-props.js"(exports2) {
     "use strict";
     function resolveProps(tokens, { flow, indicator, next, offset, onError, startOnNewline }) {
       let spaceBefore = false;
@@ -6493,9 +6493,9 @@ var require_resolve_props = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-contains-newline.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-contains-newline.js
 var require_util_contains_newline = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-contains-newline.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-contains-newline.js"(exports2) {
     "use strict";
     function containsNewline(key) {
       if (!key)
@@ -6536,9 +6536,9 @@ var require_util_contains_newline = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-flow-indent-check.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-flow-indent-check.js
 var require_util_flow_indent_check = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-flow-indent-check.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-flow-indent-check.js"(exports2) {
     "use strict";
     var utilContainsNewline = require_util_contains_newline();
     function flowIndentCheck(indent, fc, onError) {
@@ -6555,9 +6555,9 @@ var require_util_flow_indent_check = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-map-includes.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-map-includes.js
 var require_util_map_includes = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-map-includes.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-map-includes.js"(exports2) {
     "use strict";
     var identity = require_identity();
     function mapIncludes(ctx, items, search) {
@@ -6572,9 +6572,9 @@ var require_util_map_includes = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-map.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-map.js
 var require_resolve_block_map = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-map.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-map.js"(exports2) {
     "use strict";
     var Pair = require_Pair();
     var YAMLMap = require_YAMLMap();
@@ -6677,9 +6677,9 @@ var require_resolve_block_map = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-seq.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-seq.js
 var require_resolve_block_seq = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-seq.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-seq.js"(exports2) {
     "use strict";
     var YAMLSeq = require_YAMLSeq();
     var resolveProps = require_resolve_props();
@@ -6726,9 +6726,9 @@ var require_resolve_block_seq = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-end.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-end.js
 var require_resolve_end = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-end.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-end.js"(exports2) {
     "use strict";
     function resolveEnd(end, offset, reqSpace, onError) {
       let comment = "";
@@ -6770,9 +6770,9 @@ var require_resolve_end = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-collection.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-collection.js
 var require_resolve_flow_collection = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-collection.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-collection.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Pair = require_Pair();
@@ -6958,9 +6958,9 @@ var require_resolve_flow_collection = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-collection.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-collection.js
 var require_compose_collection = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-collection.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-collection.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Scalar = require_Scalar();
@@ -7016,9 +7016,9 @@ var require_compose_collection = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-scalar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-scalar.js
 var require_resolve_block_scalar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-scalar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-block-scalar.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     function resolveBlockScalar(scalar, strict, onError) {
@@ -7196,9 +7196,9 @@ var require_resolve_block_scalar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-scalar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-scalar.js
 var require_resolve_flow_scalar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-scalar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/resolve-flow-scalar.js"(exports2) {
     "use strict";
     var Scalar = require_Scalar();
     var resolveEnd = require_resolve_end();
@@ -7407,9 +7407,9 @@ var require_resolve_flow_scalar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-scalar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-scalar.js
 var require_compose_scalar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-scalar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-scalar.js"(exports2) {
     "use strict";
     var identity = require_identity();
     var Scalar = require_Scalar();
@@ -7483,9 +7483,9 @@ var require_compose_scalar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-empty-scalar-position.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-empty-scalar-position.js
 var require_util_empty_scalar_position = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-empty-scalar-position.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/util-empty-scalar-position.js"(exports2) {
     "use strict";
     function emptyScalarPosition(offset, before, pos) {
       if (before) {
@@ -7515,9 +7515,9 @@ var require_util_empty_scalar_position = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-node.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-node.js
 var require_compose_node = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-node.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-node.js"(exports2) {
     "use strict";
     var Alias = require_Alias();
     var composeCollection = require_compose_collection();
@@ -7613,9 +7613,9 @@ var require_compose_node = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-doc.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-doc.js
 var require_compose_doc = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-doc.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/compose-doc.js"(exports2) {
     "use strict";
     var Document = require_Document();
     var composeNode = require_compose_node();
@@ -7655,9 +7655,9 @@ var require_compose_doc = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/composer.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/composer.js
 var require_composer = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/composer.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/compose/composer.js"(exports2) {
     "use strict";
     var directives = require_directives();
     var Document = require_Document();
@@ -7865,9 +7865,9 @@ ${end.comment}` : end.comment;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-scalar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-scalar.js
 var require_cst_scalar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-scalar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-scalar.js"(exports2) {
     "use strict";
     var resolveBlockScalar = require_resolve_block_scalar();
     var resolveFlowScalar = require_resolve_flow_scalar();
@@ -8056,9 +8056,9 @@ var require_cst_scalar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-stringify.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-stringify.js
 var require_cst_stringify = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-stringify.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-stringify.js"(exports2) {
     "use strict";
     var stringify2 = /* @__PURE__ */ __name((cst) => "type" in cst ? stringifyToken(cst) : stringifyItem(cst), "stringify");
     function stringifyToken(token) {
@@ -8119,9 +8119,9 @@ var require_cst_stringify = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-visit.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-visit.js
 var require_cst_visit = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-visit.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst-visit.js"(exports2) {
     "use strict";
     var BREAK = Symbol("break visit");
     var SKIP = Symbol("skip children");
@@ -8183,9 +8183,9 @@ var require_cst_visit = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst.js
 var require_cst = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/cst.js"(exports2) {
     "use strict";
     var cstScalar = require_cst_scalar();
     var cstStringify = require_cst_stringify();
@@ -8287,9 +8287,9 @@ var require_cst = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/lexer.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/lexer.js
 var require_lexer = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/lexer.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/lexer.js"(exports2) {
     "use strict";
     var cst = require_cst();
     function isEmpty(ch) {
@@ -8854,9 +8854,9 @@ var require_lexer = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/line-counter.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/line-counter.js
 var require_line_counter = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/line-counter.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/line-counter.js"(exports2) {
     "use strict";
     var LineCounter = class {
       static {
@@ -8888,9 +8888,9 @@ var require_line_counter = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/parser.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/parser.js
 var require_parser = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/parser.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/parse/parser.js"(exports2) {
     "use strict";
     var cst = require_cst();
     var lexer = require_lexer();
@@ -9747,9 +9747,9 @@ var require_parser = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/public-api.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/public-api.js
 var require_public_api = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/public-api.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/public-api.js"(exports2) {
     "use strict";
     var composer = require_composer();
     var Document = require_Document();
@@ -9846,9 +9846,9 @@ var require_public_api = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/index.js
 var require_dist = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/yaml/dist/index.js"(exports2) {
     "use strict";
     var composer = require_composer();
     var Document = require_Document();
@@ -9898,9 +9898,9 @@ var require_dist = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/dependency.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/dependency.js
 var require_dependency = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/dependency.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/dependency.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -9970,9 +9970,9 @@ var require_dependency = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/private/stack-trace.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/private/stack-trace.js
 var require_stack_trace = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/private/stack-trace.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/private/stack-trace.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.captureStackTrace = void 0;
@@ -9996,9 +9996,9 @@ var require_stack_trace = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/private/uniqueid.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/private/uniqueid.js
 var require_uniqueid = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/private/uniqueid.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/private/uniqueid.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.addressOf = void 0;
@@ -10020,9 +10020,9 @@ var require_uniqueid = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/construct.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/construct.js
 var require_construct = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/construct.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/construct.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -10475,17 +10475,17 @@ var require_construct = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/metadata.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/metadata.js
 var require_metadata = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/metadata.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/metadata.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/index.js
 var require_lib = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/constructs/lib/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/constructs/lib/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -10514,9 +10514,9 @@ var require_lib = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/errors.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/errors.js
 var require_errors2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/errors.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/errors.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.AbstractMemberError = exports2.NotImplementedError = void 0;
@@ -10546,9 +10546,9 @@ Contributions welcome \u2764\uFE0F` : ""}`);
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/package.json
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/package.json
 var require_package = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/package.json"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/package.json"(exports2, module2) {
     module2.exports = {
       name: "@winglang/sdk",
       repository: {
@@ -10585,7 +10585,7 @@ var require_package = __commonJS({
         "@smithy/util-stream": "2.0.17",
         "@smithy/util-utf8": "2.0.0",
         "@types/aws-lambda": "^8.10.119",
-        "@winglang/wingtunnels": "0.73.12",
+        "@winglang/wingtunnels": "0.72.6",
         ajv: "^8.12.0",
         cdktf: "0.20.3",
         constructs: "^10.3",
@@ -10656,7 +10656,7 @@ var require_package = __commonJS({
       },
       main: "lib/index.js",
       license: "MIT",
-      version: "0.73.12",
+      version: "0.72.6",
       types: "lib/index.d.ts",
       stability: "experimental",
       jsii: {
@@ -10705,9 +10705,9 @@ var require_package = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/constants.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/constants.js
 var require_constants = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/constants.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/constants.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.fqnForType = exports2.SDK_PACKAGE_NAME = exports2.SDK_VERSION = void 0;
@@ -10728,9 +10728,9 @@ var require_constants = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/code.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/code.js
 var require_code = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/code.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/code.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.regexpCode = exports2.getEsmExportName = exports2.getProperty = exports2.safeStringify = exports2.stringify = exports2.strConcat = exports2.addCodeArg = exports2.str = exports2._ = exports2.nil = exports2._Code = exports2.Name = exports2.IDENTIFIER = exports2._CodeOrName = void 0;
@@ -10903,9 +10903,9 @@ var require_code = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/scope.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/scope.js
 var require_scope = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/scope.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/scope.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ValueScope = exports2.ValueScopeName = exports2.Scope = exports2.varKinds = exports2.UsedValueState = void 0;
@@ -11060,9 +11060,9 @@ var require_scope = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/index.js
 var require_codegen = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/codegen/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.or = exports2.and = exports2.not = exports2.CodeGen = exports2.operators = exports2.varKinds = exports2.ValueScopeName = exports2.ValueScope = exports2.Scope = exports2.Name = exports2.regexpCode = exports2.stringify = exports2.getProperty = exports2.nil = exports2.strConcat = exports2.str = exports2._ = void 0;
@@ -11860,9 +11860,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/util.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/util.js
 var require_util = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/util.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/util.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.checkStrictMode = exports2.getErrorPath = exports2.Type = exports2.useFunc = exports2.setEvaluated = exports2.evaluatedPropsToName = exports2.mergeEvaluated = exports2.eachItem = exports2.unescapeJsonPointer = exports2.escapeJsonPointer = exports2.escapeFragment = exports2.unescapeFragment = exports2.schemaRefOrVal = exports2.schemaHasRulesButRef = exports2.schemaHasRules = exports2.checkUnknownRules = exports2.alwaysValidSchema = exports2.toHash = void 0;
@@ -12044,9 +12044,9 @@ var require_util = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/names.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/names.js
 var require_names = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/names.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/names.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -12077,9 +12077,9 @@ var require_names = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/errors.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/errors.js
 var require_errors3 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/errors.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/errors.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.extendErrors = exports2.resetErrorsCount = exports2.reportExtraError = exports2.reportError = exports2.keyword$DataError = exports2.keywordError = void 0;
@@ -12209,9 +12209,9 @@ var require_errors3 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/boolSchema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/boolSchema.js
 var require_boolSchema = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.boolOrEmptySchema = exports2.topBoolOrEmptySchema = void 0;
@@ -12263,9 +12263,9 @@ var require_boolSchema = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/rules.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/rules.js
 var require_rules = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/rules.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/rules.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getRules = exports2.isJSONType = void 0;
@@ -12296,9 +12296,9 @@ var require_rules = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/applicability.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/applicability.js
 var require_applicability = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/applicability.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/applicability.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.shouldUseRule = exports2.shouldUseGroup = exports2.schemaHasRulesForType = void 0;
@@ -12322,9 +12322,9 @@ var require_applicability = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/dataType.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/dataType.js
 var require_dataType = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/dataType.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/dataType.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.reportTypeError = exports2.checkDataTypes = exports2.checkDataType = exports2.coerceAndCheckDataType = exports2.getJSONTypes = exports2.getSchemaTypes = exports2.DataType = void 0;
@@ -12518,9 +12518,9 @@ var require_dataType = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/defaults.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/defaults.js
 var require_defaults = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/defaults.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/defaults.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.assignDefaults = void 0;
@@ -12557,9 +12557,9 @@ var require_defaults = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/code.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/code.js
 var require_code2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/code.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/code.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.validateUnion = exports2.validateArray = exports2.usePattern = exports2.callValidateCode = exports2.schemaProperties = exports2.allSchemaProperties = exports2.noPropertyInData = exports2.propertyInData = exports2.isOwnProperty = exports2.hasPropFunc = exports2.reportMissingProp = exports2.checkMissingProp = exports2.checkReportMissingProp = void 0;
@@ -12704,9 +12704,9 @@ var require_code2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/keyword.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/keyword.js
 var require_keyword = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/keyword.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/keyword.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.validateKeywordUsage = exports2.validSchemaType = exports2.funcKeywordCode = exports2.macroKeywordCode = void 0;
@@ -12835,9 +12835,9 @@ var require_keyword = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/subschema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/subschema.js
 var require_subschema = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/subschema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/subschema.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.extendSubschemaMode = exports2.extendSubschemaData = exports2.getSubschema = void 0;
@@ -12922,9 +12922,9 @@ var require_subschema = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fast-deep-equal/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fast-deep-equal/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/fast-deep-equal/index.js"(exports2, module2) {
     "use strict";
     module2.exports = /* @__PURE__ */ __name(function equal(a, b) {
       if (a === b)
@@ -12967,9 +12967,9 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/json-schema-traverse/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/json-schema-traverse/index.js
 var require_json_schema_traverse = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/json-schema-traverse/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/json-schema-traverse/index.js"(exports2, module2) {
     "use strict";
     var traverse = module2.exports = function(schema, opts, cb) {
       if (typeof opts == "function") {
@@ -13057,9 +13057,9 @@ var require_json_schema_traverse = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/resolve.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/resolve.js
 var require_resolve = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/resolve.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/resolve.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getSchemaRefs = exports2.resolveUrl = exports2.normalizeId = exports2._getFullPath = exports2.getFullPath = exports2.inlineRef = void 0;
@@ -13225,9 +13225,9 @@ var require_resolve = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/index.js
 var require_validate = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/validate/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getData = exports2.KeywordCxt = exports2.validateFunctionCode = void 0;
@@ -13772,9 +13772,9 @@ var require_validate = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/validation_error.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/validation_error.js
 var require_validation_error = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/validation_error.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/validation_error.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var ValidationError = class extends Error {
@@ -13791,9 +13791,9 @@ var require_validation_error = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/ref_error.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/ref_error.js
 var require_ref_error = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/ref_error.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/ref_error.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var resolve_1 = require_resolve();
@@ -13811,9 +13811,9 @@ var require_ref_error = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/index.js
 var require_compile = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/compile/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.resolveSchema = exports2.getCompilingSchema = exports2.resolveRef = exports2.compileSchema = exports2.SchemaEnv = void 0;
@@ -14045,9 +14045,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/data.json
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/data.json
 var require_data = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/data.json"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/data.json"(exports2, module2) {
     module2.exports = {
       $id: "https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#",
       description: "Meta-schema for $data reference (JSON AnySchema extension proposal)",
@@ -14064,9 +14064,9 @@ var require_data = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uri-js/dist/es5/uri.all.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uri-js/dist/es5/uri.all.js
 var require_uri_all = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uri-js/dist/es5/uri.all.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uri-js/dist/es5/uri.all.js"(exports2, module2) {
     (function(global, factory) {
       typeof exports2 === "object" && typeof module2 !== "undefined" ? factory(exports2) : typeof define === "function" && define.amd ? define(["exports"], factory) : factory(global.URI = global.URI || {});
     })(exports2, function(exports3) {
@@ -15131,9 +15131,9 @@ var require_uri_all = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/uri.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/uri.js
 var require_uri = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/uri.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/uri.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var uri = require_uri_all();
@@ -15142,9 +15142,9 @@ var require_uri = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/core.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/core.js
 var require_core = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/core.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/core.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.CodeGen = exports2.Name = exports2.nil = exports2.stringify = exports2.str = exports2._ = exports2.KeywordCxt = void 0;
@@ -15775,9 +15775,9 @@ var require_core = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/id.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/id.js
 var require_id = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/id.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/id.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var def = {
@@ -15790,9 +15790,9 @@ var require_id = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/ref.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/ref.js
 var require_ref = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/ref.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/ref.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.callRef = exports2.getValidate = void 0;
@@ -15921,9 +15921,9 @@ var require_ref = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/index.js
 var require_core2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/core/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var id_1 = require_id();
@@ -15942,9 +15942,9 @@ var require_core2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
 var require_limitNumber = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -15974,9 +15974,9 @@ var require_limitNumber = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
 var require_multipleOf = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16002,9 +16002,9 @@ var require_multipleOf = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/ucs2length.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/ucs2length.js
 var require_ucs2length = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/ucs2length.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/ucs2length.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     function ucs2length(str) {
@@ -16029,9 +16029,9 @@ var require_ucs2length = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitLength.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitLength.js
 var require_limitLength = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16061,9 +16061,9 @@ var require_limitLength = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/pattern.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/pattern.js
 var require_pattern = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -16089,9 +16089,9 @@ var require_pattern = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
 var require_limitProperties = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16118,9 +16118,9 @@ var require_limitProperties = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/required.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/required.js
 var require_required = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/required.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/required.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -16204,9 +16204,9 @@ var require_required = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitItems.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitItems.js
 var require_limitItems = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16233,9 +16233,9 @@ var require_limitItems = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/equal.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/equal.js
 var require_equal = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/equal.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/runtime/equal.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var equal = require_fast_deep_equal();
@@ -16244,9 +16244,9 @@ var require_equal = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
 var require_uniqueItems = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var dataType_1 = require_dataType();
@@ -16315,9 +16315,9 @@ var require_uniqueItems = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/const.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/const.js
 var require_const = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/const.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/const.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16344,9 +16344,9 @@ var require_const = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/enum.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/enum.js
 var require_enum = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16395,9 +16395,9 @@ var require_enum = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/index.js
 var require_validation = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/validation/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var limitNumber_1 = require_limitNumber();
@@ -16433,9 +16433,9 @@ var require_validation = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
 var require_additionalItems = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.validateAdditionalItems = void 0;
@@ -16488,9 +16488,9 @@ var require_additionalItems = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items.js
 var require_items = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.validateTuple = void 0;
@@ -16547,9 +16547,9 @@ var require_items = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
 var require_prefixItems = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var items_1 = require_items();
@@ -16564,9 +16564,9 @@ var require_prefixItems = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items2020.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items2020.js
 var require_items2020 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16599,9 +16599,9 @@ var require_items2020 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/contains.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/contains.js
 var require_contains = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16696,9 +16696,9 @@ var require_contains = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
 var require_dependencies = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.validateSchemaDeps = exports2.validatePropertyDeps = exports2.error = void 0;
@@ -16793,9 +16793,9 @@ var require_dependencies = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
 var require_propertyNames = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -16836,9 +16836,9 @@ var require_propertyNames = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
 var require_additionalProperties = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -16947,9 +16947,9 @@ var require_additionalProperties = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/properties.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/properties.js
 var require_properties = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var validate_1 = require_validate();
@@ -17007,9 +17007,9 @@ var require_properties = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
 var require_patternProperties = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -17084,9 +17084,9 @@ var require_patternProperties = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/not.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/not.js
 var require_not = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var util_1 = require_util();
@@ -17115,9 +17115,9 @@ var require_not = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
 var require_anyOf = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -17132,9 +17132,9 @@ var require_anyOf = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
 var require_oneOf = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -17191,9 +17191,9 @@ var require_oneOf = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/allOf.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/allOf.js
 var require_allOf = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var util_1 = require_util();
@@ -17218,9 +17218,9 @@ var require_allOf = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/if.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/if.js
 var require_if = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -17290,9 +17290,9 @@ var require_if = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
 var require_thenElse = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var util_1 = require_util();
@@ -17308,9 +17308,9 @@ var require_thenElse = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/index.js
 var require_applicator = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var additionalItems_1 = require_additionalItems();
@@ -17357,9 +17357,9 @@ var require_applicator = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/format.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/format.js
 var require_format = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/format.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/format.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -17455,9 +17455,9 @@ var require_format = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/index.js
 var require_format2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/format/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var format_1 = require_format();
@@ -17466,9 +17466,9 @@ var require_format2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/metadata.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/metadata.js
 var require_metadata2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/metadata.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/metadata.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.contentVocabulary = exports2.metadataVocabulary = void 0;
@@ -17489,9 +17489,9 @@ var require_metadata2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/draft7.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/draft7.js
 var require_draft7 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/draft7.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/draft7.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var core_1 = require_core2();
@@ -17511,9 +17511,9 @@ var require_draft7 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/types.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/types.js
 var require_types = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.DiscrError = void 0;
@@ -17525,9 +17525,9 @@ var require_types = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/index.js
 var require_discriminator = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -17632,9 +17632,9 @@ var require_discriminator = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/json-schema-draft-07.json
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/json-schema-draft-07.json
 var require_json_schema_draft_07 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports2, module2) {
     module2.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "http://json-schema.org/draft-07/schema#",
@@ -17789,9 +17789,9 @@ var require_json_schema_draft_07 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/ajv.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/ajv.js
 var require_ajv = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/ajv.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ajv/dist/ajv.js"(exports2, module2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.MissingRefError = exports2.ValidationError = exports2.CodeGen = exports2.Name = exports2.nil = exports2.stringify = exports2.str = exports2._ = exports2.KeywordCxt = void 0;
@@ -17860,9 +17860,9 @@ var require_ajv = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/parser.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/parser.js
 var require_parser2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/parser.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/parser.js"(exports2, module2) {
     module2.exports = function() {
       function peg$subclass(child, parent) {
         function ctor() {
@@ -21496,9 +21496,9 @@ var require_parser2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/compiler.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/compiler.js
 var require_compiler = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/compiler.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/lib/compiler.js"(exports2, module2) {
     "use strict";
     function compile(nodes) {
       var assignedPaths = [];
@@ -21675,9 +21675,9 @@ var require_compiler = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/index.js
 var require_toml = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/index.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/toml/index.js"(exports2, module2) {
     var parser = require_parser2();
     var compiler = require_compiler();
     module2.exports = {
@@ -21689,9 +21689,9 @@ var require_toml = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/util.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/util.js
 var require_util2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/util.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/util.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -21820,9 +21820,9 @@ var require_util2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/array.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/array.js
 var require_array = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/array.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/array.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -22146,9 +22146,9 @@ var require_array = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json_schema.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json_schema.js
 var require_json_schema = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json_schema.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json_schema.js"(exports2) {
     "use strict";
     var __importDefault = exports2 && exports2.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -22242,9 +22242,9 @@ var require_json_schema = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/bool.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/bool.js
 var require_bool3 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/bool.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/bool.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -22285,9 +22285,9 @@ var require_bool3 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tokens.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tokens.js
 var require_tokens = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tokens.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tokens.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getTokenResolver = exports2.registerTokenResolver = exports2.tokenEnvName = void 0;
@@ -22310,9 +22310,9 @@ var require_tokens = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/lifting.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/lifting.js
 var require_lifting = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/lifting.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/lifting.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -22379,7 +22379,7 @@ var require_lifting = __commonJS({
     }
     __name(liftObject, "liftObject");
     exports2.liftObject = liftObject;
-    function mergeLiftDeps(matrix1 = {}, matrix2 = {}) {
+    function mergeLiftDeps(matrix1, matrix2) {
       const result = {};
       for (const [op, deps] of Object.entries(matrix1)) {
         result[op] = /* @__PURE__ */ new Map();
@@ -22446,6 +22446,12 @@ var require_lifting = __commonJS({
           matrix = matrixCache.get(obj);
         } else if (typeof obj === "object" && obj._liftMap !== void 0) {
           matrix = parseMatrix(obj._liftMap ?? {});
+          matrixCache.set(obj, matrix);
+        } else if (typeof obj === "object" && typeof obj._supportedOps === "function") {
+          matrix = {};
+          for (const op of obj._supportedOps()) {
+            matrix[op] = /* @__PURE__ */ new Map();
+          }
           matrixCache.set(obj, matrix);
         } else if (typeof obj === "function" && typeof obj._liftTypeMap !== void 0) {
           matrix = parseMatrix(obj._liftTypeMap ?? {});
@@ -22537,9 +22543,9 @@ It might not be implemented yet.`, { resource: obj.constructor.name, operation: 
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/types.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/types.js
 var require_types2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/types.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/types.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SECRET_SYMBOL = exports2.INFLIGHT_SYMBOL = exports2.Construct = void 0;
@@ -22552,9 +22558,9 @@ var require_types2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/misc.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/misc.js
 var require_misc = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/misc.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/misc.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isPath = exports2.shell = exports2.runCommand = exports2.normalPath = exports2.readJsonSync = void 0;
@@ -22598,9 +22604,9 @@ var require_misc = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/inflight.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/inflight.js
 var require_inflight2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/inflight.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/inflight.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -22724,11 +22730,13 @@ var require_inflight2 = __commonJS({
        * Built-in NodeJS globals are available, such as `console` and `process`.
        */
       inflight(fn) {
-        const _liftMap = { handle: [] };
+        const _liftMap = { handle: [], $inflight_init: [] };
         for (const [key, obj] of Object.entries(this.lifts)) {
           let knownOps = this.grants[key];
-          knownOps = knownOps ?? Object.keys(obj._liftMap ?? {});
-          _liftMap.handle.push([obj, knownOps]);
+          if (knownOps === void 0 && typeof obj?._supportedOps === "function") {
+            knownOps = obj._supportedOps();
+          }
+          _liftMap.handle.push([obj, knownOps ?? []]);
         }
         return {
           _id: closureId(),
@@ -22748,6 +22756,7 @@ var require_inflight2 = __commonJS({
 )())`;
           },
           _liftMap,
+          _supportedOps: () => [],
           // @ts-expect-error This function's type doesn't actually match, but it will just throw anyways
           [types_1.INFLIGHT_SYMBOL]: () => {
             throw new Error("This is a inflight function and can only be invoked while inflight");
@@ -22758,9 +22767,9 @@ var require_inflight2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/datetime.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/datetime.js
 var require_datetime = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/datetime.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/datetime.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -22944,9 +22953,9 @@ var require_datetime = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/duration.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/duration.js
 var require_duration = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/duration.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/duration.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -23089,9 +23098,9 @@ var require_duration = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/generics.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/generics.js
 var require_generics = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/generics.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/generics.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -23108,9 +23117,9 @@ var require_generics = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js
 var require_json = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -23541,9 +23550,9 @@ var require_json = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/map.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/map.js
 var require_map2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/map.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/map.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -23800,9 +23809,9 @@ var require_map2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/connections.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/connections.js
 var require_connections = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/connections.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/connections.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -23899,9 +23908,9 @@ var require_connections = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/node.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/node.js
 var require_node = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/node.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/node.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24233,9 +24242,9 @@ var require_node = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/number.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/number.js
 var require_number = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/number.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/number.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24288,9 +24297,9 @@ var require_number = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/regex.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/regex.js
 var require_regex = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/regex.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/regex.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24433,9 +24442,9 @@ var require_regex = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/resource.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/resource.js
 var require_resource = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/resource.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/resource.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -24481,6 +24490,12 @@ var require_resource = __commonJS({
        */
       static _newFromFactory(fqn, scope, id, ...props) {
         return core_1.App.of(scope).newAbstract(fqn, scope, id, ...props);
+      }
+      /**
+       * @internal
+       * */
+      _supportedOps() {
+        return [];
       }
       /**
        * Return a code snippet that can be used to reference this resource inflight.
@@ -24538,9 +24553,9 @@ var require_resource = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/set.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/set.js
 var require_set2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/set.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/set.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -24679,9 +24694,9 @@ var require_set2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/string.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/string.js
 var require_string2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/string.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/string.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24876,9 +24891,9 @@ var require_string2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/struct.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/struct.js
 var require_struct = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/struct.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/struct.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24957,9 +24972,9 @@ var require_struct = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test.js
 var require_test = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -24983,8 +24998,8 @@ var require_test = __commonJS({
         }
       }
       /** @internal */
-      get _liftMap() {
-        return {};
+      _supportedOps() {
+        return [];
       }
       /** @internal */
       _toInflight() {
@@ -24997,9 +25012,9 @@ var require_test = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/api.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/api.js
 var require_api = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/api.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/api.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25018,35 +25033,10 @@ var require_api = __commonJS({
        * Converts input path to a valid OpenAPI path (replaces `:` based path params with `{}`)
        * @param path The path to convert (assumes path is valid)
        * @returns OpenAPI path
+       * @internal
        */
-      static renderOpenApiPath(path) {
+      static _toOpenApiPath(path) {
         return path.replace(/\/:([A-Za-z0-9_-]+)/g, "/{$1}");
-      }
-      /**
-       * Generates an object containing default CORS response headers and OPTIONS response headers.
-       * @param corsOptions The CORS options to generate the headers from.
-       * @returns An object containing default CORS response headers and OPTIONS response headers.
-       */
-      static renderCorsHeaders(corsOptions) {
-        if (corsOptions == void 0) {
-          return;
-        }
-        const { allowOrigin = "*", allowHeaders = [], allowMethods = [], exposeHeaders = [], allowCredentials = false, maxAge = std_1.Duration.fromMinutes(5) } = corsOptions;
-        const defaultHeaders = {
-          "Access-Control-Allow-Origin": allowOrigin || "*",
-          "Access-Control-Expose-Headers": exposeHeaders.join(",") || "",
-          "Access-Control-Allow-Credentials": allowCredentials ? "true" : "false"
-        };
-        const optionsHeaders = {
-          "Access-Control-Allow-Origin": allowOrigin || "*",
-          "Access-Control-Allow-Headers": allowHeaders.join(",") || "",
-          "Access-Control-Allow-Methods": allowMethods.join(",") || "",
-          "Access-Control-Max-Age": maxAge.seconds.toString()
-        };
-        return {
-          defaultResponse: defaultHeaders,
-          optionsResponse: optionsHeaders
-        };
       }
       /**
        * The base URL of the API endpoint.
@@ -25271,6 +25261,33 @@ var require_api = __commonJS({
         return corsHeaders;
       }
       /**
+       * Generates an object containing default CORS response headers and OPTIONS response headers.
+       * @param corsOptions The CORS options to generate the headers from.
+       * @returns An object containing default CORS response headers and OPTIONS response headers.
+       * @internal
+       */
+      _generateCorsHeaders(corsOptions) {
+        if (corsOptions == void 0) {
+          return;
+        }
+        const { allowOrigin = "*", allowHeaders = [], allowMethods = [], exposeHeaders = [], allowCredentials = false, maxAge = std_1.Duration.fromMinutes(5) } = corsOptions;
+        const defaultHeaders = {
+          "Access-Control-Allow-Origin": allowOrigin || "*",
+          "Access-Control-Expose-Headers": exposeHeaders.join(",") || "",
+          "Access-Control-Allow-Credentials": allowCredentials ? "true" : "false"
+        };
+        const optionsHeaders = {
+          "Access-Control-Allow-Origin": allowOrigin || "*",
+          "Access-Control-Allow-Headers": allowHeaders.join(",") || "",
+          "Access-Control-Allow-Methods": allowMethods.join(",") || "",
+          "Access-Control-Max-Age": maxAge.seconds.toString()
+        };
+        return {
+          defaultResponse: defaultHeaders,
+          optionsResponse: optionsHeaders
+        };
+      }
+      /**
        * Add a route to the api spec.
        * @param path The path to add.
        * @param method The method to add.
@@ -25328,7 +25345,7 @@ var require_api = __commonJS({
       _getOpenApiSpec() {
         let paths = {};
         Object.keys(this.apiSpec.paths).forEach((key) => {
-          paths[_Api.renderOpenApiPath(key)] = this.apiSpec.paths[key];
+          paths[_Api._toOpenApiPath(key)] = this.apiSpec.paths[key];
         });
         return {
           ...this.apiSpec,
@@ -25393,9 +25410,9 @@ var require_api = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/topic.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/topic.js
 var require_topic = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/topic.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/topic.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25448,9 +25465,35 @@ var require_topic = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/bucket.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/convert.js
+var require_convert = __commonJS({
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/convert.js"(exports2) {
+    "use strict";
+    Object.defineProperty(exports2, "__esModule", { value: true });
+    exports2.convertBetweenHandlers = void 0;
+    var misc_1 = require_misc();
+    var core_1 = require_core3();
+    function convertBetweenHandlers(baseHandler, newHandlerClientPath, newHandlerClientClassName, args = {}) {
+      const newHandler = {
+        ...baseHandler,
+        _id: (0, core_1.closureId)(),
+        _toInflight() {
+          const handlerClient = baseHandler._toInflight();
+          const newCode = `new (require("${(0, misc_1.normalPath)(newHandlerClientPath)}")).${newHandlerClientClassName}({ handler: ${handlerClient}, args: ${JSON.stringify(args)} })`;
+          return newCode;
+        }
+      };
+      Object.setPrototypeOf(newHandler, Object.getPrototypeOf(baseHandler));
+      return newHandler;
+    }
+    __name(convertBetweenHandlers, "convertBetweenHandlers");
+    exports2.convertBetweenHandlers = convertBetweenHandlers;
+  }
+});
+
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/bucket.js
 var require_bucket = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/bucket.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/bucket.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -25495,6 +25538,7 @@ var require_bucket = __commonJS({
     var core_1 = require_core3();
     var errors_1 = require_errors2();
     var types_1 = require_types2();
+    var convert_1 = require_convert();
     var std_1 = require_std();
     exports2.BUCKET_FQN = (0, constants_1.fqnForType)("cloud.Bucket");
     var Bucket = class _Bucket extends std_1.Resource {
@@ -25560,14 +25604,24 @@ var require_bucket = __commonJS({
         return this._topics.get(actionType);
       }
       /**
+       * Resolves the path to the bucket.onevent.inflight file
+       */
+      eventHandlerLocation() {
+        throw new Error("please specify under the target file (to get the right relative path)");
+      }
+      /**
        * Creates an inflight handler from inflight code
        * @param eventType
        * @param inflight
        */
-      createTopicHandler(eventType, inflight) {
-        eventType;
-        inflight;
-        throw new Error("Method not implemented.");
+      createInflightHandler(eventType, inflight) {
+        return (0, convert_1.convertBetweenHandlers)(
+          inflight,
+          // since uses __dirname should be specified under the target directory
+          this.eventHandlerLocation(),
+          "BucketEventHandlerClient",
+          { eventType }
+        );
       }
       /**
        * Creates a bucket event notifier
@@ -25578,13 +25632,13 @@ var require_bucket = __commonJS({
       createBucketEvent(eventNames, inflight, opts) {
         opts;
         if (eventNames.includes(BucketEventType.CREATE)) {
-          this.getTopic(BucketEventType.CREATE).onMessage(this.createTopicHandler(BucketEventType.CREATE, inflight));
+          this.getTopic(BucketEventType.CREATE).onMessage(this.createInflightHandler(BucketEventType.CREATE, inflight));
         }
         if (eventNames.includes(BucketEventType.UPDATE)) {
-          this.getTopic(BucketEventType.UPDATE).onMessage(this.createTopicHandler(BucketEventType.UPDATE, inflight));
+          this.getTopic(BucketEventType.UPDATE).onMessage(this.createInflightHandler(BucketEventType.UPDATE, inflight));
         }
         if (eventNames.includes(BucketEventType.DELETE)) {
-          this.getTopic(BucketEventType.DELETE).onMessage(this.createTopicHandler(BucketEventType.DELETE, inflight));
+          this.getTopic(BucketEventType.DELETE).onMessage(this.createInflightHandler(BucketEventType.DELETE, inflight));
         }
       }
       /**
@@ -25659,9 +25713,9 @@ var require_bucket = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/counter.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/counter.js
 var require_counter = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/counter.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/counter.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25698,9 +25752,9 @@ var require_counter = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/domain.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/domain.js
 var require_domain = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/domain.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/domain.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25735,9 +25789,9 @@ var require_domain = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/endpoint.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/endpoint.js
 var require_endpoint = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/endpoint.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/endpoint.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25790,9 +25844,9 @@ var require_endpoint = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/resource-names.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/resource-names.js
 var require_resource_names = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/resource-names.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/shared/resource-names.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ResourceNames = exports2.CaseConventions = void 0;
@@ -25842,9 +25896,9 @@ var require_resource_names = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/function.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/function.js
 var require_function = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/function.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/function.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25942,9 +25996,9 @@ var require_function = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/on-deploy.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/on-deploy.js
 var require_on_deploy = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/on-deploy.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/on-deploy.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -25975,9 +26029,9 @@ var require_on_deploy = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/queue.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/queue.js
 var require_queue = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/queue.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/queue.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -26025,9 +26079,9 @@ var require_queue = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/cron-validator/lib/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/cron-validator/lib/index.js
 var require_lib2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/cron-validator/lib/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/cron-validator/lib/index.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -26194,9 +26248,9 @@ var require_lib2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/schedule.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/schedule.js
 var require_schedule = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/schedule.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/schedule.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -26254,9 +26308,9 @@ var require_schedule = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/secret.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/secret.js
 var require_secret = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/secret.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/secret.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -26297,9 +26351,9 @@ var require_secret = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/service.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/service.js
 var require_service = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/service.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/service.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -26397,9 +26451,9 @@ var require_service = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/website.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/website.js
 var require_website = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/website.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/website.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -26481,9 +26535,9 @@ var require_website = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/index.js
 var require_cloud = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/cloud/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -26522,9 +26576,9 @@ var require_cloud = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test-runner.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test-runner.js
 var require_test_runner = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test-runner.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/test-runner.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -26586,11 +26640,11 @@ var require_test_runner = __commonJS({
         return void 0;
       }
       /** @internal */
-      get _liftMap() {
-        return {
-          [TestRunnerInflightMethods.LIST_TESTS]: [],
-          [TestRunnerInflightMethods.RUN_TEST]: []
-        };
+      _supportedOps() {
+        return [
+          TestRunnerInflightMethods.LIST_TESTS,
+          TestRunnerInflightMethods.RUN_TEST
+        ];
       }
       /**
        * Find all tests in the construct tree.
@@ -26620,9 +26674,9 @@ var require_test_runner = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/index.js
 var require_std = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -26665,9 +26719,9 @@ var require_std = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/parameter-registrar.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/parameter-registrar.js
 var require_parameter_registrar = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/parameter-registrar.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/parameter-registrar.js"(exports2) {
     "use strict";
     var __importDefault = exports2 && exports2.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -26808,17 +26862,17 @@ var require_parameter_registrar = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform.js
 var require_platform = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform-manager.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform-manager.js
 var require_platform_manager = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform-manager.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/platform-manager.js"(exports2, module2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27056,9 +27110,9 @@ var require_platform_manager = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/index.js
 var require_platform2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/platform/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27088,9 +27142,9 @@ var require_platform2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/app.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/app.js
 var require_app = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/app.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/app.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -27227,9 +27281,9 @@ var require_app = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/attributes.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/attributes.js
 var require_attributes = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/attributes.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/attributes.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.WING_ATTRIBUTE_RESOURCE_CONNECTIONS = void 0;
@@ -27237,9 +27291,9 @@ var require_attributes = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/dependency.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/dependency.js
 var require_dependency2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/dependency.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/dependency.js"(exports2) {
     "use strict";
     var _a;
     var _b;
@@ -27400,9 +27454,9 @@ var require_dependency2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/base.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/base.js
 var require_base = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/base.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/base.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
@@ -27437,9 +27491,9 @@ var require_base = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/colors.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/colors.js
 var require_colors = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/colors.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/ui/colors.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isOfTypeColors = void 0;
@@ -27462,9 +27516,9 @@ var require_colors = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tree.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tree.js
 var require_tree = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tree.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/tree.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27567,9 +27621,9 @@ var require_tree = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/index.js
 var require_core3 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/core/index.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/core/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27602,9 +27656,9 @@ var require_core3 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js
 var require_fs2 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -28037,9 +28091,9 @@ var require_fs2 = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/serialization.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/serialization.js
 var require_serialization = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/serialization.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/serialization.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.deserialize = exports2.serialize = void 0;
@@ -28089,9 +28143,9 @@ var require_serialization = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/client.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/client.js
 var require_client = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/client.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/simulator/client.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -28196,17 +28250,17 @@ ${err.stack}`;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/url-alphabet/index.cjs
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/url-alphabet/index.cjs
 var require_url_alphabet = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/url-alphabet/index.cjs"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/url-alphabet/index.cjs"(exports2, module2) {
     var urlAlphabet = "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict";
     module2.exports = { urlAlphabet };
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/index.cjs
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/index.cjs
 var require_nanoid = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/index.cjs"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/nanoid/index.cjs"(exports2, module2) {
     var crypto4 = require("crypto");
     var { urlAlphabet } = require_url_alphabet();
     var POOL_SIZE_MULTIPLIER = 128;
@@ -28256,9 +28310,9 @@ var require_nanoid = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ulid/dist/index.umd.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ulid/dist/index.umd.js
 var require_index_umd = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ulid/dist/index.umd.js"(exports2, module2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/ulid/dist/index.umd.js"(exports2, module2) {
     (function(global, factory) {
       typeof exports2 === "object" && typeof module2 !== "undefined" ? factory(exports2) : typeof define === "function" && define.amd ? define(["exports"], factory) : factory(global.ULID = {});
     })(exports2, function(exports3) {
@@ -28443,7 +28497,7 @@ var require_index_umd = __commonJS({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/rng.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/rng.js
 function rng() {
   if (poolPtr > rnds8Pool.length - 16) {
     import_crypto.default.randomFillSync(rnds8Pool);
@@ -28453,7 +28507,7 @@ function rng() {
 }
 var import_crypto, rnds8Pool, poolPtr;
 var init_rng = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/rng.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/rng.js"() {
     import_crypto = __toESM(require("crypto"));
     rnds8Pool = new Uint8Array(256);
     poolPtr = rnds8Pool.length;
@@ -28461,28 +28515,28 @@ var init_rng = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/regex.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/regex.js
 var regex_default;
 var init_regex = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/regex.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/regex.js"() {
     regex_default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/validate.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/validate.js
 function validate(uuid) {
   return typeof uuid === "string" && regex_default.test(uuid);
 }
 var validate_default;
 var init_validate = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/validate.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/validate.js"() {
     init_regex();
     __name(validate, "validate");
     validate_default = validate;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/stringify.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/stringify.js
 function stringify(arr, offset = 0) {
   const uuid = (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
   if (!validate_default(uuid)) {
@@ -28492,7 +28546,7 @@ function stringify(arr, offset = 0) {
 }
 var byteToHex, stringify_default;
 var init_stringify = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/stringify.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/stringify.js"() {
     init_validate();
     byteToHex = [];
     for (let i = 0; i < 256; ++i) {
@@ -28503,7 +28557,7 @@ var init_stringify = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v1.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v1.js
 function v1(options, buf, offset) {
   let i = buf && offset || 0;
   const b = buf || new Array(16);
@@ -28554,7 +28608,7 @@ function v1(options, buf, offset) {
 }
 var _nodeId, _clockseq, _lastMSecs, _lastNSecs, v1_default;
 var init_v1 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v1.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v1.js"() {
     init_rng();
     init_stringify();
     _lastMSecs = 0;
@@ -28564,7 +28618,7 @@ var init_v1 = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/parse.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/parse.js
 function parse(uuid) {
   if (!validate_default(uuid)) {
     throw TypeError("Invalid UUID");
@@ -28591,14 +28645,14 @@ function parse(uuid) {
 }
 var parse_default;
 var init_parse = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/parse.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/parse.js"() {
     init_validate();
     __name(parse, "parse");
     parse_default = parse;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v35.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v35.js
 function stringToBytes(str) {
   str = unescape(encodeURIComponent(str));
   const bytes = [];
@@ -28644,7 +28698,7 @@ function v35_default(name, version2, hashfunc) {
 }
 var DNS, URL2;
 var init_v35 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v35.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v35.js"() {
     init_stringify();
     init_parse();
     __name(stringToBytes, "stringToBytes");
@@ -28654,7 +28708,7 @@ var init_v35 = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/md5.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/md5.js
 function md5(bytes) {
   if (Array.isArray(bytes)) {
     bytes = Buffer.from(bytes);
@@ -28665,17 +28719,17 @@ function md5(bytes) {
 }
 var import_crypto2, md5_default;
 var init_md5 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/md5.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/md5.js"() {
     import_crypto2 = __toESM(require("crypto"));
     __name(md5, "md5");
     md5_default = md5;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v3.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v3.js
 var v3, v3_default;
 var init_v3 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v3.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v3.js"() {
     init_v35();
     init_md5();
     v3 = v35_default("v3", 48, md5_default);
@@ -28683,7 +28737,7 @@ var init_v3 = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v4.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v4.js
 function v4(options, buf, offset) {
   options = options || {};
   const rnds = options.random || (options.rng || rng)();
@@ -28700,7 +28754,7 @@ function v4(options, buf, offset) {
 }
 var v4_default;
 var init_v4 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v4.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v4.js"() {
     init_rng();
     init_stringify();
     __name(v4, "v4");
@@ -28708,7 +28762,7 @@ var init_v4 = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/sha1.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/sha1.js
 function sha1(bytes) {
   if (Array.isArray(bytes)) {
     bytes = Buffer.from(bytes);
@@ -28719,17 +28773,17 @@ function sha1(bytes) {
 }
 var import_crypto3, sha1_default;
 var init_sha1 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/sha1.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/sha1.js"() {
     import_crypto3 = __toESM(require("crypto"));
     __name(sha1, "sha1");
     sha1_default = sha1;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v5.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v5.js
 var v5, v5_default;
 var init_v5 = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v5.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/v5.js"() {
     init_v35();
     init_sha1();
     v5 = v35_default("v5", 80, sha1_default);
@@ -28737,15 +28791,15 @@ var init_v5 = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/nil.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/nil.js
 var nil_default;
 var init_nil = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/nil.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/nil.js"() {
     nil_default = "00000000-0000-0000-0000-000000000000";
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/version.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/version.js
 function version(uuid) {
   if (!validate_default(uuid)) {
     throw TypeError("Invalid UUID");
@@ -28754,14 +28808,14 @@ function version(uuid) {
 }
 var version_default;
 var init_version = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/version.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/version.js"() {
     init_validate();
     __name(version, "version");
     version_default = version;
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/index.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/index.js
 var esm_node_exports = {};
 __export(esm_node_exports, {
   NIL: () => nil_default,
@@ -28775,7 +28829,7 @@ __export(esm_node_exports, {
   version: () => version_default
 });
 var init_esm_node = __esm({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/index.js"() {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/node_modules/uuid/dist/esm-node/index.js"() {
     init_v1();
     init_v3();
     init_v4();
@@ -28788,118 +28842,13 @@ var init_esm_node = __esm({
   }
 });
 
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/util/child-process.js
-var require_child_process = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/util/child-process.js"(exports2) {
-    "use strict";
-    var _a;
-    Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.ChildProcess = void 0;
-    var JSII_RTTI_SYMBOL_1 = Symbol.for("jsii.rtti");
-    var child_process_1 = require("child_process");
-    var util_1 = require_util3();
-    var core_1 = require_core3();
-    var ChildProcess = class {
-      static {
-        __name(this, "ChildProcess");
-      }
-      /**
-       * @internal
-       */
-      static _toInflightType() {
-        return core_1.InflightClient.forType(__filename, this.name);
-      }
-      constructor(program, args, opts) {
-        this.stdout = "";
-        this.stderr = "";
-        this.exitStatus = null;
-        const spawnOpts = {
-          cwd: opts?.cwd,
-          env: opts?.inheritEnv ? { ...process.env, ...opts.env } : { ...opts?.env },
-          stdio: [
-            opts?.stdin ?? util_1.Stdio.PIPED,
-            opts?.stdout ?? util_1.Stdio.PIPED,
-            opts?.stderr ?? util_1.Stdio.PIPED
-          ]
-        };
-        this.child = (0, child_process_1.spawn)(program, args, spawnOpts);
-        this.pid = this.child.pid;
-        this.child.on("exit", (code) => {
-          this.exitStatus = code;
-        });
-      }
-      /**
-       * Kill the process.
-       * @param signal - the signal to send to the process (defaults to SIGTERM)
-       */
-      kill(signal = 15) {
-        this.child.kill(signal);
-      }
-      /**
-       * Wait for the process to finish and return its output.
-       * Calling this method multiple times will return the same output.
-       */
-      async wait() {
-        if (this.exitStatus !== null) {
-          return {
-            stdout: this.stdout,
-            stderr: this.stderr,
-            status: this.exitStatus
-          };
-        }
-        return new Promise((resolve, reject) => {
-          const cleanup = /* @__PURE__ */ __name(() => {
-            this.child.off("exit", onExit);
-            this.child.off("error", onError);
-            if (this.child.stdout) {
-              this.child.stdout.off("data", onDataStdout);
-            }
-            if (this.child.stderr) {
-              this.child.stderr.off("data", onDataStderr);
-            }
-          }, "cleanup");
-          const onExit = /* @__PURE__ */ __name((code, signal) => {
-            cleanup();
-            if (code !== null) {
-              resolve({ stdout: this.stdout, stderr: this.stderr, status: code });
-            } else {
-              reject(new Error(`Process terminated by signal ${signal}`));
-            }
-          }, "onExit");
-          const onError = /* @__PURE__ */ __name((error) => {
-            cleanup();
-            reject(error);
-          }, "onError");
-          const onDataStdout = /* @__PURE__ */ __name((data) => {
-            this.stdout += data.toString();
-          }, "onDataStdout");
-          const onDataStderr = /* @__PURE__ */ __name((data) => {
-            this.stderr += data.toString();
-          }, "onDataStderr");
-          this.child.on("exit", onExit);
-          this.child.on("error", onError);
-          if (this.child.stdout) {
-            this.child.stdout.on("data", onDataStdout);
-          }
-          if (this.child.stderr) {
-            this.child.stderr.on("data", onDataStderr);
-          }
-        });
-      }
-    };
-    exports2.ChildProcess = ChildProcess;
-    _a = JSII_RTTI_SYMBOL_1;
-    ChildProcess[_a] = { fqn: "@winglang/sdk.util.ChildProcess", version: "0.0.0" };
-  }
-});
-
-// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js
+// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js
 var require_util3 = __commonJS({
-  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js"(exports2) {
+  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js"(exports2) {
     "use strict";
     var _a;
     Object.defineProperty(exports2, "__esModule", { value: true });
-    exports2.Util = exports2.Stdio = void 0;
+    exports2.Util = void 0;
     var JSII_RTTI_SYMBOL_1 = Symbol.for("jsii.rtti");
     var child_process_1 = require("child_process");
     var crypto_1 = require("crypto");
@@ -28907,17 +28856,10 @@ var require_util3 = __commonJS({
     var nanoid_1 = require_nanoid();
     var ulid_1 = require_index_umd();
     var uuid_1 = (init_esm_node(), __toCommonJS(esm_node_exports));
-    var child_process_2 = require_child_process();
     var core_1 = require_core3();
     var std_1 = require_std();
     var execPromise = (0, util_1.promisify)(child_process_1.exec);
     var execFilePromise = (0, util_1.promisify)(child_process_1.execFile);
-    var Stdio;
-    (function(Stdio2) {
-      Stdio2["INHERIT"] = "inherit";
-      Stdio2["PIPED"] = "pipe";
-      Stdio2["NULL"] = "ignore";
-    })(Stdio || (exports2.Stdio = Stdio = {}));
     var Util = class _Util {
       static {
         __name(this, "Util");
@@ -28985,18 +28927,6 @@ var require_util3 = __commonJS({
             };
           }
         }
-      }
-      /**
-       * Execute a program with the given arguments, and return a `ChildProcess`
-       * object that can be used to interact with the process while it is running.
-       * @param program - The program to execute.
-       * @param args - An array of arguments to pass to the program.
-       * @param opts - Spawn options including working directory, environment variables, and stdio configurations.
-       * @returns The `ChildProcess` instance associated with the spawned process.
-       * @inflight
-       */
-      static spawn(program, args, opts) {
-        return new child_process_2.ChildProcess(program, args, opts);
       }
       /**
        * Returns the value of an environment variable. Throws if not found or empty.
@@ -32205,9 +32135,9 @@ exports.start = async function() {
     const $Closure1Client = require_inflight_Closure1_4()({
       $____parent_this_1_props_useBuildCommand_____null_: false,
       $__parent_this_1_buildCommand: "npm run build",
-      $__parent_this_1_buildDir: "/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/front_end/build",
+      $__parent_this_1_buildDir: "C:/Users/loyal/Desktop/codingProject/assistant/front_end/build",
       $__parent_this_1_env: { "API_URL": process.env["WING_TOKEN_WSIM_ROOT_ENV0_API_ATTRS_URL"] },
-      $__parent_this_1_path: "/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/front_end",
+      $__parent_this_1_path: "C:/Users/loyal/Desktop/codingProject/assistant/front_end",
       $__parent_this_1_startCommand: "npm run start",
       $fs_Util: require_fs2().Util,
       $props_localPort: void 0,

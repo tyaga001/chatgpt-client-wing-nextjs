@@ -4,7 +4,7 @@ exports.handler = async function(event) {
   $handler = $handler ?? (
           (await (async () => {
             const $Closure1Client = 
-          require("/Users/ankurtyagi/dev/wing/blog/myChatGPTClient/backend/target/test/main.wsim/.wing/inflight.$Closure1-6.cjs")({
+          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.$Closure1-6.cjs")({
             $__parent_this_1_url: process.env["WING_TOKEN_WSIM_ROOT_ENV0_APP_APPSIM_STATE_ATTRS_URL"],
           })
         ;
