@@ -1,10 +1,25 @@
 "use strict";
 var $handler = undefined;
 exports.handler = async function(event) {
-  $handler = $handler ?? (new (require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.onrequest.inflight.js")).ApiOnRequestHandlerClient({ handler: 
+  $handler = $handler ?? ((await (async () => {
+  const $func = async (ctx, event) => {
+            if (!event) {
+                throw new Error("invalid API request event");
+            }
+            let req = JSON.parse(event);
+            const response = await ctx.handler(req);
+            if (!response) {
+                return undefined;
+            }
+            else {
+                return JSON.stringify(response);
+            }
+        }
+  const $ctx = {
+  handler: 
           (await (async () => {
             const $Closure3Client = 
-          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.$Closure3-7.cjs")({
+          require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.$Closure3-7.cjs")({
             $db: (function() {
   let handle = process.env.TABLE_HANDLE_1c7c637a;
   if (!handle) {
@@ -20,7 +35,7 @@ exports.handler = async function(event) {
   }
   return require("@winglang/sdk/lib/simulator/client").makeSimulatorClient(simulatorUrl, handle, caller);
 })(),
-            $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+            $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
           })
         ;
             const client = new $Closure3Client({
@@ -28,10 +43,18 @@ exports.handler = async function(event) {
             if (client.$inflight_init) { await client.$inflight_init(); }
             return client;
           })())
-        , args: {} }));
+        
+  };
+  let newFunction = async (...args) => {
+    return $func($ctx, ...args);
+  };
+  newFunction.handle = newFunction;
+  return newFunction;
+}
+)()));
   return await $handler.handle(event);
 };
-process.setUncaughtExceptionCaptureCallback((reason) => {
+process.on("uncaughtException", (reason) => {
   process.send({ type: "reject", reason });
 });
 

@@ -6,9 +6,9 @@ var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
 
-// ../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js
+// ../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js
 var require_helpers = __commonJS({
-  "../../../../AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js"(exports, module) {
+  "../../../../../.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/helpers.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createExternRequire = exports.assign = exports.lookup = exports.unwrap = exports.normalPath = exports.nodeof = exports.range = exports.assert = exports.neq = exports.eq = void 0;
@@ -195,7 +195,7 @@ exports.handler = async function(event) {
   })();
   return await $handler.handle(event);
 };
-process.setUncaughtExceptionCaptureCallback((reason) => {
+process.on("uncaughtException", (reason) => {
   process.send({ type: "reject", reason });
 });
 process.on("message", async (message) => {

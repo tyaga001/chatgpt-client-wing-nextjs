@@ -7,14 +7,14 @@
         const client = await 
           (await (async () => {
             const $Closure1Client = 
-          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/main.wsim/.wing/inflight.$Closure1-4.cjs")({
+          require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/main.wsim/.wing/inflight.$Closure1-4.cjs")({
             $____parent_this_1_props_useBuildCommand_____null_: false,
             $__parent_this_1_buildCommand: "npm run build",
-            $__parent_this_1_buildDir: "C:/Users/loyal/Desktop/codingProject/assistant/front_end/build",
+            $__parent_this_1_buildDir: "/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/front_end/build",
             $__parent_this_1_env: {"API_URL": process.env["WING_TOKEN_WSIM_ROOT_DEFAULT_API_ATTRS_URL"],},
-            $__parent_this_1_path: "C:/Users/loyal/Desktop/codingProject/assistant/front_end",
+            $__parent_this_1_path: "/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/front_end",
             $__parent_this_1_startCommand: "npm run start",
-            $fs_Util: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js").Util,
+            $fs_Util: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/fs/fs.js").Util,
             $props_localPort: undefined,
             $state: (function() {
   let handle = process.env.STATE_HANDLE_92652da3;
@@ -31,10 +31,10 @@
   }
   return require("@winglang/sdk/lib/simulator/client").makeSimulatorClient(simulatorUrl, handle, caller);
 })(),
-            $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
-            $util_Util: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js").Util,
+            $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+            $util_Util: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/util/util.js").Util,
             $utils_Utils: 
-      require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/main.wsim/.wing/inflight.Utils-2.cjs")({
+      require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/main.wsim/.wing/inflight.Utils-2.cjs")({
       })
     ,
           })

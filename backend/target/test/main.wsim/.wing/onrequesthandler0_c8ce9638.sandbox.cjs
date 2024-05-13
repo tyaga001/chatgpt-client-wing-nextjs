@@ -1,10 +1,25 @@
 "use strict";
 var $handler = undefined;
 exports.handler = async function(event) {
-  $handler = $handler ?? (new (require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.onrequest.inflight.js")).ApiOnRequestHandlerClient({ handler: 
+  $handler = $handler ?? ((await (async () => {
+  const $func = async (ctx, event) => {
+            if (!event) {
+                throw new Error("invalid API request event");
+            }
+            let req = JSON.parse(event);
+            const response = await ctx.handler(req);
+            if (!response) {
+                return undefined;
+            }
+            else {
+                return JSON.stringify(response);
+            }
+        }
+  const $ctx = {
+  handler: 
           (await (async () => {
             const $Closure2Client = 
-          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.$Closure2-7.cjs")({
+          require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.$Closure2-7.cjs")({
             $counter: (function() {
   let handle = process.env.COUNTER_HANDLE_591cd131;
   if (!handle) {
@@ -38,24 +53,24 @@ exports.handler = async function(event) {
             $myAssistant: 
           (await (async () => {
             const RespondToQuestionsClient = 
-          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.RespondToQuestions-7.cjs")({
+          require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.RespondToQuestions-7.cjs")({
           })
         ;
             const client = new RespondToQuestionsClient({
               $this_gpt: 
           (await (async () => {
             const AssistantClient = 
-          require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.Assistant-7.cjs")({
+          require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.Assistant-7.cjs")({
           })
         ;
             const client = new AssistantClient({
               $this_openai: 
       (await (async () => {
         const OpenAIClient = 
-      require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.OpenAI-1.cjs")({
+      require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.OpenAI-1.cjs")({
         $Sim: 
-      require("C:/Users/loyal/Desktop/codingProject/assistant/backend/target/test/main.wsim/.wing/inflight.Sim-1.cjs")({
-        $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+      require("/Users/ankurtyagi/dev/wing/nextjs/chatgpt-client-wing-nextjs/backend/target/test/main.wsim/.wing/inflight.Sim-1.cjs")({
+        $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
       })
     ,
       })
@@ -126,7 +141,7 @@ exports.handler = async function(event) {
             return client;
           })())
         ,
-            $std_Json: require("C:/Users/loyal/AppData/Roaming/npm/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
+            $std_Json: require("/Users/ankurtyagi/.nvm/versions/node/v18.20.1/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/std/json.js").Json,
           })
         ;
             const client = new $Closure2Client({
@@ -134,10 +149,18 @@ exports.handler = async function(event) {
             if (client.$inflight_init) { await client.$inflight_init(); }
             return client;
           })())
-        , args: {} }));
+        
+  };
+  let newFunction = async (...args) => {
+    return $func($ctx, ...args);
+  };
+  newFunction.handle = newFunction;
+  return newFunction;
+}
+)()));
   return await $handler.handle(event);
 };
-process.setUncaughtExceptionCaptureCallback((reason) => {
+process.on("uncaughtException", (reason) => {
   process.send({ type: "reject", reason });
 });
 
