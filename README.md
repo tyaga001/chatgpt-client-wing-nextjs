@@ -61,3 +61,6 @@ To use the ChatGPT client:
 Open your browser and go to http://localhost:3000.
 Type your query into the input box.
 Press enter or click the send button to receive a response from ChatGPT.
+
+## Blog
+[How to Build a ChatGPT Graphical Client with NextJS and Wing](https://dev.to/winglang/building-your-own-chatgpt-graphical-client-with-nextjs-and-wing-29jj)
