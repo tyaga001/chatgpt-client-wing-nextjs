@@ -20,9 +20,9 @@ Before you begin, ensure you have the following installed:
 
 Clone the repository:
 
-```bash
 git clone https://github.com/yourusername/chatgpt-client-wing-react.git
 cd chatgpt-client-wing-nextjs
+
 
 To get this project up and running on your local machine, follow these steps:
 
